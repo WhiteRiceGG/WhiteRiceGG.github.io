@@ -1196,7 +1196,7 @@ pre .javascript .function {
 }
 .links-of-author a::before,
 .links-of-author span.exturl::before {
-  background: #b3e305;
+  background: #cc00c1;
   border-radius: 50%;
   content: ' ';
   display: inline-block;
@@ -2528,7 +2528,7 @@ hr {
   display: inline-block;
 }
 body {
-  background: url("");
+  background: url("https://www.freeimg.cn/i/2023/12/01/6569ee8cc8a5a.jpg");
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-position: 50% 50%;
