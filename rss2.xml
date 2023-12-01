@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0"
+  xmlns:atom="http://www.w3.org/2005/Atom"
+  xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>WhiteRiceGG</title>
+    <link>http://example.com/</link>
+    
+    <atom:link href="http://example.com/rss2.xml" rel="self" type="application/rss+xml"/>
+    
+    <description>选择有时候比努力更重要</description>
+    <pubDate>Sat, 04 Nov 2023 12:10:08 GMT</pubDate>
+    <generator>http://hexo.io/</generator>
+    
+    <item>
+      <title>Vue学习笔记1</title>
+      <link>http://example.com/2023/11/04/Vue%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B01/</link>
+      <guid>http://example.com/2023/11/04/Vue%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B01/</guid>
+      <pubDate>Sat, 04 Nov 2023 12:09:51 GMT</pubDate>
+      
+      <description>&lt;h3 id=&quot;推荐大家安装的-VScode-中的-Vue-插件&quot;&gt;&lt;a href=&quot;#推荐大家安装的-VScode-中的-Vue-插件&quot; class=&quot;headerlink&quot; title=&quot;推荐大家安装的 VScode 中的 Vue 插件&quot;&gt;&lt;/a&gt;推荐大家安装的 VScode 中的 Vue 插件&lt;/h3&gt;&lt;ol&gt;
+&lt;li&gt;Vue 3 Snippets     &lt;a href=&quot;https://marketplace.visualstudio.com/items?itemName=hollowtree.vue-snippets&quot;&gt;https://marketplace.visualstudio.com/items?itemName=hollowtree.vue-snippets&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Vetur                    &lt;a href=&quot;https://marketplace.visualstudio.com/items?itemName=octref.vetur&quot;&gt;https://marketplace.visualstudio.com/items?itemName=octref.vetur&lt;/a&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h3 id=&quot;什么是-vue&quot;&gt;&lt;a href=&quot;#什么是-vue&quot; class=&quot;headerlink&quot; title=&quot;什么是 vue&quot;&gt;&lt;/a&gt;什么是 vue&lt;/h3&gt;&lt;ol&gt;
+&lt;li&gt;构建用户界面&lt;ul&gt;
+&lt;li&gt;用 vue 往 html 页面中填充数据，非常的方便&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;框架&lt;ul&gt;
+&lt;li&gt;框架是一套现成的解决方案，程序员只能遵守框架的规范，去编写自己的业务功能！&lt;/li&gt;
+&lt;li&gt;要学习 vue，就是在学习 vue 框架中规定的用法！&lt;/li&gt;
+&lt;li&gt;vue 的指令、组件（是对 UI 结构的复用）、路由、Vuex、vue 组件库&lt;/li&gt;
+&lt;li&gt;只有把上面老师罗列的内容掌握以后，才有开发 vue 项目的能力！&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ol&gt;</description>
+      
+      
+      
+      <content:encoded><![CDATA[<h3 id="推荐大家安装的-VScode-中的-Vue-插件"><a href="#推荐大家安装的-VScode-中的-Vue-插件" class="headerlink" title="推荐大家安装的 VScode 中的 Vue 插件"></a>推荐大家安装的 VScode 中的 Vue 插件</h3><ol><li>Vue 3 Snippets     <a href="https://marketplace.visualstudio.com/items?itemName=hollowtree.vue-snippets">https://marketplace.visualstudio.com/items?itemName=hollowtree.vue-snippets</a></li><li>Vetur                    <a href="https://marketplace.visualstudio.com/items?itemName=octref.vetur">https://marketplace.visualstudio.com/items?itemName=octref.vetur</a></li></ol><h3 id="什么是-vue"><a href="#什么是-vue" class="headerlink" title="什么是 vue"></a>什么是 vue</h3><ol><li>构建用户界面<ul><li>用 vue 往 html 页面中填充数据，非常的方便</li></ul></li><li>框架<ul><li>框架是一套现成的解决方案，程序员只能遵守框架的规范，去编写自己的业务功能！</li><li>要学习 vue，就是在学习 vue 框架中规定的用法！</li><li>vue 的指令、组件（是对 UI 结构的复用）、路由、Vuex、vue 组件库</li><li>只有把上面老师罗列的内容掌握以后，才有开发 vue 项目的能力！</li></ul></li></ol><span id="more"></span><h3 id="vue-的两个特性"><a href="#vue-的两个特性" class="headerlink" title="vue 的两个特性"></a>vue 的两个特性</h3><ol><li><p>数据驱动视图：</p><ul><li>数据的变化<strong>会驱动视图</strong>自动更新</li><li>好处：程序员只管把数据维护好，那么页面结构会被 vue 自动渲染出来！</li></ul></li><li><p>双向数据绑定：</p><blockquote><p>在网页中，form 表单负责<strong>采集数据</strong>，Ajax 负责<strong>提交数据</strong>。</p></blockquote><ul><li>js 数据的变化，会被自动渲染到页面上</li><li>页面上表单采集的数据发生变化的时候，会被 vue 自动获取到，并更新到 js 数据中</li></ul></li></ol><blockquote><p>注意：数据驱动视图和双向数据绑定的底层原理是 MVVM（Mode 数据源、View 视图、ViewModel 就是 vue 的实例）</p></blockquote><h3 id="vue-指令"><a href="#vue-指令" class="headerlink" title="vue 指令"></a>vue 指令</h3><h4 id="1-内容渲染指令"><a href="#1-内容渲染指令" class="headerlink" title="1. 内容渲染指令"></a>1. 内容渲染指令</h4><ol><li><code>v-text</code> 指令的缺点：会覆盖元素内部原有的内容！</li><li><code>&#123;&#123; &#125;&#125;</code> 插值表达式：在实际开发中用的最多，只是内容的占位符，不会覆盖原有的内容！</li><li><code>v-html</code> 指令的作用：可以把带有标签的字符串，渲染成真正的 HTML 内容！</li></ol><h4 id="2-属性绑定指令"><a href="#2-属性绑定指令" class="headerlink" title="2. 属性绑定指令"></a>2. 属性绑定指令</h4><blockquote><p> 注意：插值表达式只能用在元素的<strong>内容节点</strong>中，不能用在元素的<strong>属性节点</strong>中！</p></blockquote><ul><li><p>在 vue 中，可以使用 <code>v-bind:</code> 指令，为元素的属性动态绑定值；</p></li><li><p>简写是英文的 <code>:</code></p></li><li><p>在使用 v-bind 属性绑定期间，如果绑定内容需要进行动态拼接，则字符串的外面应该包裹单引号，例如：</p><figure class="highlight xml"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">div</span> <span class="attr">:title</span>=<span class="string">&quot;&#x27;box&#x27; + index&quot;</span>&gt;</span>这是一个 div<span class="tag">&lt;/<span class="name">div</span>&gt;</span></span><br></pre></td></tr></table></figure></li></ul><h4 id="3-事件绑定"><a href="#3-事件绑定" class="headerlink" title="3. 事件绑定"></a>3. 事件绑定</h4><ol><li><p><code>v-on:</code> 简写是 <code>@</code></p></li><li><p>语法格式为：</p><figure class="highlight xml"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">button</span> @<span class="attr">click</span>=<span class="string">&quot;add&quot;</span>&gt;</span><span class="tag">&lt;/<span class="name">button</span>&gt;</span></span><br><span class="line"></span><br><span class="line">methods: &#123;</span><br><span class="line">   add() &#123;</span><br><span class="line">// 如果在方法中要修改 data 中的数据，可以通过 this 访问到</span><br><span class="line">this.count += 1</span><br><span class="line">   &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure></li><li><p><code>$event</code> 的应用场景：如果默认的事件对象 e 被覆盖了，则可以手动传递一个  $event。例如：</p><figure class="highlight xml"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">button</span> @<span class="attr">click</span>=<span class="string">&quot;add(3, $event)&quot;</span>&gt;</span><span class="tag">&lt;/<span class="name">button</span>&gt;</span></span><br><span class="line"></span><br><span class="line">methods: &#123;</span><br><span class="line">   add(n, e) &#123;</span><br><span class="line">// 如果在方法中要修改 data 中的数据，可以通过 this 访问到</span><br><span class="line">this.count += 1</span><br><span class="line">   &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure></li><li><p>事件修饰符：</p><ul><li><p><code>.prevent</code></p><figure class="highlight xml"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">a</span> @<span class="attr">click.prevent</span>=<span class="string">&quot;xxx&quot;</span>&gt;</span>链接<span class="tag">&lt;/<span class="name">a</span>&gt;</span></span><br></pre></td></tr></table></figure></li><li><p><code>.stop</code></p><figure class="highlight xml"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">button</span> @<span class="attr">click.stop</span>=<span class="string">&quot;xxx&quot;</span>&gt;</span>按钮<span class="tag">&lt;/<span class="name">button</span>&gt;</span></span><br></pre></td></tr></table></figure></li></ul></li></ol><h4 id="4-v-model-指令"><a href="#4-v-model-指令" class="headerlink" title="4. v-model 指令"></a>4. v-model 指令</h4><ol><li>input 输入框<ul><li>type&#x3D;”radio”</li><li>type&#x3D;”checkbox”</li><li>type&#x3D;”xxxx”</li></ul></li><li>textarea</li><li>select</li></ol><h4 id="5-条件渲染指令"><a href="#5-条件渲染指令" class="headerlink" title="5. 条件渲染指令"></a>5. 条件渲染指令</h4><ol><li><code>v-show</code> 的原理是：动态为元素添加或移除 <code>display: none</code> 样式，来实现元素的显示和隐藏<ul><li>如果要频繁的切换元素的显示状态，用 v-show 性能会更好</li></ul></li><li><code>v-if</code> 的原理是：每次动态创建或移除元素，实现元素的显示和隐藏<ul><li>如果刚进入页面的时候，某些元素默认不需要被展示，而且后期这个元素很可能也不需要被展示出来，此时 v-if 性能更好</li></ul></li></ol><blockquote><p> 在实际开发中，绝大多数情况，不用考虑性能问题，直接使用 v-if 就好了！！！</p></blockquote><p>v-if 指令在使用的时候，有两种方式：</p><ol><li><p>直接给定一个布尔值 true 或 false</p><figure class="highlight xml"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">p</span> <span class="attr">v-if</span>=<span class="string">&quot;true&quot;</span>&gt;</span>被 v-if 控制的元素<span class="tag">&lt;/<span class="name">p</span>&gt;</span></span><br></pre></td></tr></table></figure></li><li><p>给 v-if 提供一个判断条件，根据判断的结果是 true 或 false，来控制元素的显示和隐藏</p><figure class="highlight xml"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">p</span> <span class="attr">v-if</span>=<span class="string">&quot;type === &#x27;A&#x27;&quot;</span>&gt;</span>良好<span class="tag">&lt;/<span class="name">p</span>&gt;</span></span><br></pre></td></tr></table></figure></li></ol>]]></content:encoded>
+      
+      
+      
+      
+      <comments>http://example.com/2023/11/04/Vue%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B01/#disqus_thread</comments>
+      
+    </item>
+    
+    <item>
+      <title>FreeMusic音乐网站</title>
+      <link>http://example.com/2023/10/18/FreeMusic%E9%9F%B3%E4%B9%90%E7%BD%91%E7%AB%99/</link>
+      <guid>http://example.com/2023/10/18/FreeMusic%E9%9F%B3%E4%B9%90%E7%BD%91%E7%AB%99/</guid>
+      <pubDate>Wed, 18 Oct 2023 03:06:45 GMT</pubDate>
+      
+        
+        
+      <description>&lt;p&gt;该项目前端使用的是VUE.js所搭建的一个网页，网页的内容丰富，包括歌单、歌手等歌曲分类，以及音乐的基础播放功能。&lt;/p&gt;
+&lt;p&gt;后端做了一个管理系统，可以对数据库的内容进行更改，包括艺人管理、歌单管理等功能。&lt;/p&gt;
+</description>
+        
+      
+      
+      
+      <content:encoded><![CDATA[<p>该项目前端使用的是VUE.js所搭建的一个网页，网页的内容丰富，包括歌单、歌手等歌曲分类，以及音乐的基础播放功能。</p><p>后端做了一个管理系统，可以对数据库的内容进行更改，包括艺人管理、歌单管理等功能。</p>]]></content:encoded>
+      
+      
+      
+      
+      <comments>http://example.com/2023/10/18/FreeMusic%E9%9F%B3%E4%B9%90%E7%BD%91%E7%AB%99/#disqus_thread</comments>
+      
+    </item>
+    
+    <item>
+      <title>Android 博学谷项目</title>
+      <link>http://example.com/2023/10/18/Android%E5%8D%9A%E5%AD%A6%E8%B0%B7%E9%A1%B9%E7%9B%AE/</link>
+      <guid>http://example.com/2023/10/18/Android%E5%8D%9A%E5%AD%A6%E8%B0%B7%E9%A1%B9%E7%9B%AE/</guid>
+      <pubDate>Wed, 18 Oct 2023 03:03:17 GMT</pubDate>
+      
+        
+        
+      <description>&lt;p&gt;开发工具：JDK8、SQLite、Android Studio、夜神模拟器、apache-tomact&lt;/p&gt;
+&lt;p&gt;项目描述：此项目主要分为三大模块：课程模块、习题模块、“我”的模块，课程模块包括课程列表和课程详情，习题包括习题列表和习题详情，“我”的模块包含用户注册、用</description>
+        
+      
+      
+      
+      <content:encoded><![CDATA[<p>开发工具：JDK8、SQLite、Android Studio、夜神模拟器、apache-tomact</p><p>项目描述：此项目主要分为三大模块：课程模块、习题模块、“我”的模块，课程模块包括课程列表和课程详情，习题包括习题列表和习题详情，“我”的模块包含用户注册、用户登录、找回密码、个人资料、设置等六个功能，其中个人资料功能包含个人资料修改，设置功能包括修改密码、设置密保和退出登录功能。</p><p>项目文件地址：<a href="https://download.csdn.net/download/WhiteRiceGG/88434375?spm=1001.2101.3001.9499">Android博学谷项目资源</a></p>]]></content:encoded>
+      
+      
+      
+      
+      <comments>http://example.com/2023/10/18/Android%E5%8D%9A%E5%AD%A6%E8%B0%B7%E9%A1%B9%E7%9B%AE/#disqus_thread</comments>
+      
+    </item>
+    
+    <item>
+      <title>欢迎来到我的网站</title>
+      <link>http://example.com/2023/10/17/hello/</link>
+      <guid>http://example.com/2023/10/17/hello/</guid>
+      <pubDate>Tue, 17 Oct 2023 14:59:04 GMT</pubDate>
+      
+        
+        
+      <description>&lt;p&gt;欢迎来到我的个人网站！这是一个展示我的世界的地方，我将与你分享我的想法、经历和创作。无论你是追寻知识，寻找灵感，或者只是想与我交流，这里都是你的家。在这里，你会了解到我的兴趣爱好，我对生活的态度，以及我对未来的展望。我希望通过这个网站，能够与你建立起真诚的联系，并一起成长。</description>
+        
+      
+      
+      
+      <content:encoded><![CDATA[<p>欢迎来到我的个人网站！这是一个展示我的世界的地方，我将与你分享我的想法、经历和创作。无论你是追寻知识，寻找灵感，或者只是想与我交流，这里都是你的家。在这里，你会了解到我的兴趣爱好，我对生活的态度，以及我对未来的展望。我希望通过这个网站，能够与你建立起真诚的联系，并一起成长。谢谢你的光临，让我们开始我们的旅程吧！</p>]]></content:encoded>
+      
+      
+      
+      
+      <comments>http://example.com/2023/10/17/hello/#disqus_thread</comments>
+      
+    </item>
+    
+  </channel>
+</rss>
